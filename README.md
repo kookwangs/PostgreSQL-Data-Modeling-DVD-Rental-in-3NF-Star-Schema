@@ -12,11 +12,13 @@ The database consists of 15 tables: actor, film, film_actor, category, film_cate
 The relationships between these tables are shown in the ER diagram above.
 
 ## Designing Star Schema
-In this project, I designed a star schema from the DVD rental dataset to improve query performance and simplify data analysis. The diagram below shows the star schema structure.
+In this project, I designed a **star schema** from the DVD rental dataset to improve query performance and simplify data analysis. The diagram below shows the star schema structure.
 
+![Blank diagram - Page 1 (1)](https://github.com/user-attachments/assets/f1a7df8e-0561-41e1-b091-c57dca000850)
 
+## Create Database and Insert data
+I created a database named **"dvdrental"** on my local host and imported the dvdrental.tar file using the CLI.
 
+For schema design, I wrote **DDL SQL scripts** to create tables for the star schema and performed **ETL** to extract data from the **3NF database**, transform it, and store it in the star schema format.
 
-
-
-
+All SQL scripts and code are available in this repository.
