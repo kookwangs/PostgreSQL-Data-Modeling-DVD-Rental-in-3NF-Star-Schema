@@ -3,13 +3,16 @@ Designed and transformed the DVD Rental database from **3NF** to a **Star Schema
 
 ## DVD Rental Dataset
 
-
+![Blank diagram - Page 2](https://github.com/user-attachments/assets/fdad86df-70c2-4f82-be39-bc30398a08c4)
 
 [The DVD Rental Database](https://neon.tech/postgresql/postgresql-getting-started/postgresql-sample-database) is a sample dataset used to demonstrate PostgreSQL features. It models the business operations of a DVD rental store, including inventory management, customer rentals, payments, and store operations.
 
 The database consists of 15 tables: actor, film, film_actor, category, film_category, store, inventory, rental, payment, staff, customer, address, city, and country.
 
 The relationships between these tables are shown in the ER diagram above.
+
+## Designing Star Schema
+In this project, I designed a star schema from the DVD rental dataset to improve query performance and simplify data analysis. The diagram below shows the star schema structure.
 
 
 
