@@ -21,4 +21,4 @@ I created a database named **"dvdrental"** on my local host and imported the dvd
 
 For schema design, I wrote **DDL SQL scripts** to create tables for the star schema and performed **ETL** to extract data from the **3NF database**, transform it, and store it in the star schema format.
 
-All SQL scripts and code are available in this repository.
+All **CLI commands** and **SQL scripts** are available in this repository.
